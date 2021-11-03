@@ -20,10 +20,6 @@ $dialogs = $MadelineProto->getFullDialogs();
 //print_r($dialogs);
 //print '</pre>';
 //exit;
-//$Chat = $MadelineProto->getInfo($dialogs[-1001378529858]);
-//print_r($Chat);
-//print '</pre>';
-//exit;
 
 $Vector_of_DialogFilter = $MadelineProto->messages->getDialogFilters();
 //print '<pre>';
